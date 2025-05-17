@@ -32,7 +32,7 @@ text-transparent'>FRONTEND DEVELOPER | UI/UX DESIGNER</h1>
            <img  src={Picture} alt="Dan Victor" className='object-cover  ' />
         </div>
       </section>
-        <h1 className='text-center text-3xl sm:text-5xl bg-gradient-to-b from-[#F5F5F5] via-[#D4D4D4] to-[#9E9E9E] h-auto bg-clip-text
+        <h1 className='text-left px-[25px] sm:px-0 sm:text-center text-3xl sm:text-5xl bg-gradient-to-b from-[#F5F5F5] via-[#D4D4D4] to-[#9E9E9E] h-auto bg-clip-text
 text-transparent py-12 scroll-mt-20' id='about'>About Me</h1>
         <p className=' text-left md:text-center opacity-75 px-[25px] sm:px-[30px] xl:px-[90px] leading-[30px]'>I'm a creative and detail-oriented Frontend Developer and UI/UX Designer with experience building responsive,
            user-friendly web interfaces using technologies like HTML5, CSS3, Tailwind css, JavaScript, React, and TypeScript. I specialize in translating UI/UX designs
