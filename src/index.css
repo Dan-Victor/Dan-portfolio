@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+
+
+
+a {
+  text-decoration: inherit;
+}
+
+
+li{
+  cursor: pointer;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+  padding: 0;
+  color: #fff;
+  background-color: black;
+  box-sizing: border-box;
+  
+}
+
