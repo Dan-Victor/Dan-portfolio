@@ -11,6 +11,7 @@ const Nav = () => {
             <a href="#about"><li>About</li></a>
             <a href="#skill"><li>Skill</li></a>
             <a href="#project"><li>Project</li></a>
+            <a href="#project"><li>twddt</li></a>
         </ul>
     </nav>
     <a href='mailto:victoradesola8@gmail.com'><button className=' text-white border-white border-[1px] border-solid px-[25px] py-[10px] sm:py-[15px] cursor-pointer hover:text-black hover:bg-white sm:px-[40px] rounded-[12px]'>Contact</button></a>
