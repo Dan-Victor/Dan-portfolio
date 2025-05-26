@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, use } from 'react'
 import Nav from './nav.jsx'
 import './App.css'
 import Picture from './assets/dan pic.png'
@@ -9,9 +9,10 @@ import ac from './assets/ac.png'
 import skill from './assets/skill.png'
 import Footer from './footer.jsx'
 function App() {
- 
-  return (
+   return (    
     <>
+    
+    
      <Nav />
      <main className='w-full max-w-[1600px] m-auto '>
       <section className='w-full bg-[#000000] flex md:justify-between  flex-wrap md:flex-nowrap px-[10px] items-center pt-[60px] pb-[40px] '>
@@ -20,7 +21,7 @@ function App() {
 text-transparent xl:text-[48px] text-3xl '>Dan-Victor Adesola</h1>
           <h1 className='xl:text-[48px] text-3xl  w-auto xl:w-[585px] bg-gradient-to-b from-[#F5F5F5] via-[#D4D4D4] to-[#9E9E9E] h-auto bg-clip-text
 text-transparent'>FRONTEND DEVELOPER | UI/UX DESIGNER</h1>
-           <a href="/Dan-Victor.pdf" target='_blank' rel="noopener noreferrer"><button className=' mt-[32px] cursor-pointer
+           <a href="/Dan-Victor Resume pro.pdf" target='_blank' rel="noopener noreferrer"><button className=' mt-[32px] cursor-pointer
              border-1 border-transparent rounded-[12px]
              bg-gradient-to-r from-[#ffffff] to-[#A42121] bg-clip-border p-[2px]'>
              <div className='bg-black text-white px-[21px] py-[20px] rounded-[12px]'>

@@ -1,0 +1,34 @@
+{
+    "info":[
+        {
+            "id": 1,
+            "name": "Dan Victor",
+            "age": 30,
+            "image": "/dan pic.png"
+        },
+        {
+            "id": 2,
+            "name": "Tola Victor",
+            "age": 40,
+            "image": "/dan pic.png"
+        },
+        {
+            "id": 3,
+            "name": "Agbani Victor",
+            "age": 50,
+            "image": "/dan pic.png"
+        },
+        {
+            "id": 4,
+            "name": "Victor Dan",
+            "age": 102,
+            "image": "/dan pic.png"
+        },
+        {
+            "id": 5,
+            "name": "Daniela Victor",
+            "age": 37,
+            "image": "/dan pic.png"
+        }
+    ]
+}
