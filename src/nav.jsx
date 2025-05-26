@@ -3,7 +3,7 @@ import React from 'react'
 const Nav = () => {
   return (
     <header className="w-full flex bg-[rgb(0,0,0)] h-[80px] justify-between items-center px-[15px] sm:px-[30px] md:px-[55px] fixed z-[999]">
-     <a href="/"><h1 className='text-[32px] font-[900] '>DAN</h1></a>
+     <a href="/"><h1 className='sm:text-[32px] font-[900] text-[28px]  '>DAN</h1></a>
     <nav className='w-auto'>
        
         <ul className='sm:flex hidden sm:gap-[40px] lg:gap-[109px]'>
