@@ -49,7 +49,7 @@ text-transparent scroll-mt-[-120px]' id='skill'>Skills & Tools</h1>
              <h1 className='text-center pt-[160px]  sm:pt-[300px] text-3xl sm:text-5xl scroll-mt-[-160px] ' id='project'>Projects</h1>
              <div className='grid xl:grid-cols-[repeat(auto-fit,minmax(436px,1fr))] grid-cols-[repeat(auto-fit,minmax(250px,1fr))]  gap-[50px] px-[45px] mt-[100px] mx-auto  items-center justify-items-center'>
               <div>
-              <a href="https://frolicking-clafoutis-7ac6ab.netlify.app/"><div><img className='object-contain' loading='lazy' src={sm} alt=""></img></div></a>
+              <a href="https://frolicking-clafoutis-7ac6ab.netlify.app/"><div><img className='object-contain' loading='lazy' src={sm} alt="smart-resident-image"></img></div></a>
                 <h2 className='pt-[45px] text-3xl pb-1'>Smart Residence</h2>
                 <p className='opacity-75 w-[310px] h-[80px]'>A website to help estate owners
                 and landlord track estate activites.</p>
@@ -63,7 +63,7 @@ text-transparent scroll-mt-[-120px]' id='skill'>Skills & Tools</h1>
               </div>
 
               <div>
-              <a href="https://joyful-platypus-3a1eb3.netlify.app/"><div><img className='object-contain' loading='lazy' src={rccg} alt=""></img></div></a>
+              <a href="https://joyful-platypus-3a1eb3.netlify.app/"><div><img className='object-contain' loading='lazy' src={rccg} alt="rccg-image"></img></div></a>
                 <h2 className='pt-[45px] text-3xl pb-1'>Rccg City of David</h2>
                 <p className='opacity-75 w-[310px] h-[80px]'>Redeemed Christian Church of God, City Of David church website.</p>
             <a href="https://joyful-platypus-3a1eb3.netlify.app/"><button  className=' mt-[32px] cursor-pointer
@@ -76,7 +76,7 @@ text-transparent scroll-mt-[-120px]' id='skill'>Skills & Tools</h1>
               </div>
               <div>
 
-              <a href="https://dan-victor.github.io/urban-hive/#"><div><img className='object-contain' loading='lazy' src={uh} alt=""></img></div></a>
+              <a href="https://dan-victor.github.io/urban-hive/#"><div><img className='object-contain' loading='lazy' src={uh} alt="urban-hive-image"></img></div></a>
                 <h2 className='pt-[45px] text-3xl pb-1'>Urban Hive</h2>
                 <p className='opacity-75 w-[310px] h-[80px]'>A Software Development Agency website that provides end to end software development services.</p>
             <a href="https://dan-victor.github.io/urban-hive/#"><button  className=' mt-[32px] cursor-pointer
@@ -89,7 +89,7 @@ text-transparent scroll-mt-[-120px]' id='skill'>Skills & Tools</h1>
               </div>
 
               <div>
-              <a href="https://precious-macaron-9a60f3.netlify.app/"><div><img className='object-contain' loading='lazy' src={ac} alt=""></img></div></a>
+              <a href="https://precious-macaron-9a60f3.netlify.app/"><div><img className='object-contain' loading='lazy' src={ac} alt="ann-image"></img></div></a>
                 <h2 className='pt-[45px] text-3xl pb-1'>Anncranberry Couture</h2>
                 <p className='opacity-75 w-[310px] h-[80px]'>A website to book outfit appointment </p>
             <a href="https://precious-macaron-9a60f3.netlify.app/"><button  className=' mt-[32px] cursor-pointer
