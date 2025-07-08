@@ -43,7 +43,7 @@ text-transparent py-12 scroll-mt-20' id='about'>About Me</h1>
              <h1 className=' pt-[160px] md:pt-[300px] text-center  text-3xl sm:text-5xl bg-gradient-to-r from-[#F5F5F5] via-[#D4D4D4] to-[#9E9E9E] h-auto bg-clip-text
 text-transparent scroll-mt-[-120px]' id='skill'>Skills & Tools</h1>
              <div className='flex justify-center mt-[80px] px-[10px] items-center'>
-              <img src={skill}></img>
+              <img src={skill} loading='lazy' alt='skill-img'></img>
              </div>
 
              <h1 className='text-center pt-[160px]  sm:pt-[300px] text-3xl sm:text-5xl scroll-mt-[-160px] ' id='project'>Projects</h1>
