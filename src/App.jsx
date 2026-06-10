@@ -3,6 +3,7 @@ import Nav from './nav.jsx'
 import './App.css'
 import Picture from './assets/dan pic.png'
 import sm from './assets/sm.png'
+import bbup from './assets/bbup.png'
 import rccg from './assets/rccg.png'
 import uh from './assets/uh.png'
 import ac from './assets/ac.png'
@@ -21,7 +22,7 @@ function App() {
 text-transparent xl:text-[48px] text-3xl '>Dan-Victor Adesola</h1>
           <h1 className='xl:text-[48px] text-3xl  w-auto xl:w-[585px] bg-gradient-to-b from-[#F5F5F5] via-[#D4D4D4] to-[#9E9E9E] h-auto bg-clip-text
 text-transparent'>FRONTEND DEVELOPER | UI/UX DESIGNER</h1>
-           <a href="/Dan-Victor Resume pro.pdf" target='_blank' rel="noopener noreferrer"><button className=' mt-[32px] cursor-pointer
+           <a href="/Dan-Victor Resume currentt.pdf" target='_blank' rel="noopener noreferrer"><button className=' mt-[32px] cursor-pointer
              border-1 border-transparent rounded-[12px]
              bg-gradient-to-r from-[#ffffff] to-[#A42121] bg-clip-border p-[2px]'>
              <div className='bg-black text-white px-[21px] py-[20px] rounded-[12px]'>
@@ -36,7 +37,7 @@ text-transparent'>FRONTEND DEVELOPER | UI/UX DESIGNER</h1>
         <h1 className='text-left px-[25px] sm:px-0 sm:text-center text-3xl sm:text-5xl bg-gradient-to-b from-[#F5F5F5] via-[#D4D4D4] to-[#9E9E9E] h-auto bg-clip-text
 text-transparent py-12 scroll-mt-20' id='about'>About Me</h1>
         <p className='w-auto text-left md:text-center opacity-75 px-[25px] sm:px-[30px] xl:px-[90px] leading-[30px]'>I'm a creative and detail-oriented Frontend Developer and UI/UX Designer with experience building responsive,
-           user-friendly web interfaces using technologies like HTML5, CSS3, Tailwind css, JavaScript, React, and TypeScript. I specialize in translating UI/UX designs
+           user-friendly web interfaces using technologies like HTML5, CSS3, Tailwind css, JavaScript, React/Next js, TypeScript and headless CMS. I specialize in translating UI/UX designs
             into clean, scalable code and collaborating across teams to bring digital products to life. Whether working with a start-up, an established company, or a personal client, 
             I focus on crafting functional and visually compelling websites and web apps. From landing pages and full-site builds to API-driven apps and interface designs in Figma,
              I aim to deliver smooth, modern user experiences across all platforms.</p>
@@ -48,6 +49,20 @@ text-transparent scroll-mt-[-120px]' id='skill'>Skills & Tools</h1>
 
              <h1 className='text-center pt-[160px]  sm:pt-[300px] text-3xl sm:text-5xl scroll-mt-[-160px] ' id='project'>Projects</h1>
              <div className='grid xl:grid-cols-[repeat(auto-fit,minmax(436px,1fr))] grid-cols-[repeat(auto-fit,minmax(250px,1fr))]  gap-[50px] px-[45px] mt-[100px] mx-auto  items-center justify-items-center'>
+                <div>
+              <a href="https://blackbuild.netlify.app/"><div><img className='object-contain' loading='lazy' src={bbup} alt="smart-resident-image"></img></div></a>
+                <h2 className='pt-[45px] text-3xl pb-1'>Black Build  Up</h2>
+                <p className='opacity-75 w-[310px] h-[80px]'>An organisation Empowering Black Entrepreneurs. Building Resilient Communities in BC and Beyond.
+    </p>
+            <a href="https://blackbuild.netlify.app/"><button  className=' mt-[32px] cursor-pointer
+             border-1 border-transparent rounded-[12px]
+             bg-gradient-to-r from-[#ffffff] to-[#A42121] bg-clip-border p-[1px]'>
+             <div className='bg-black text-white px-[21px] py-[15px] rounded-[12px]'>
+               Live Demo
+             </div>
+           </button></a>
+              </div>
+
               <div>
               <a href="https://frolicking-clafoutis-7ac6ab.netlify.app/"><div><img className='object-contain' loading='lazy' src={sm} alt="smart-resident-image"></img></div></a>
                 <h2 className='pt-[45px] text-3xl pb-1'>Smart Residence</h2>
@@ -88,7 +103,7 @@ text-transparent scroll-mt-[-120px]' id='skill'>Skills & Tools</h1>
            </button></a>
               </div>
 
-              <div>
+              {/*<div>
               <a href="https://precious-macaron-9a60f3.netlify.app/"><div><img className='object-contain' loading='lazy' src={ac} alt="ann-image"></img></div></a>
                 <h2 className='pt-[45px] text-3xl pb-1'>Anncranberry Couture</h2>
                 <p className='opacity-75 w-[310px] h-[80px]'>A website to book outfit appointment </p>
@@ -99,7 +114,7 @@ text-transparent scroll-mt-[-120px]' id='skill'>Skills & Tools</h1>
                Live Demo
              </div>
            </button></a>
-              </div>
+              </div>*/}
              </div>
      </main>
      <Footer />
