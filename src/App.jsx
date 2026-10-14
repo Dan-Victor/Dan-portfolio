@@ -6,6 +6,7 @@ import sm from './assets/sm.png'
 import bbup from './assets/bbup.png'
 import rccg from './assets/rccg.png'
 import uh from './assets/uh.png'
+import sctl from './assets/sctl.png'
 import ac from './assets/ac.png'
 import skill from './assets/skill.png'
 import Footer from './footer.jsx'
@@ -50,6 +51,19 @@ text-transparent scroll-mt-[-120px]' id='skill'>Skills & Tools</h1>
              <h1 className='text-center pt-[160px]  sm:pt-[300px] text-3xl sm:text-5xl scroll-mt-[-160px] ' id='project'>Projects</h1>
              <div className='grid xl:grid-cols-[repeat(auto-fit,minmax(436px,1fr))] grid-cols-[repeat(auto-fit,minmax(250px,1fr))]  gap-[50px] px-[45px] mt-[100px] mx-auto  items-center justify-items-center'>
                 <div>
+              <a href="https://shadowchronetechnologies.vercel.app/"><div><img className='object-contain' loading='lazy' src={sctl} alt="shadowchronetechnologies-img"></img></div></a>
+                <h2 className='pt-[45px] text-3xl pb-1'>Shadowchrone Technologies Ltd</h2>
+                <p className='opacity-75 w-[310px] h-[80px]'>A tecnology website that provide installations of CCTV, Access Control and other security systems. and also sell technology products 
+    </p>
+            <a href="https://shadowchronetechnologies.vercel.app/"><button  className=' mt-[32px] cursor-pointer
+             border-1 border-transparent rounded-[12px]
+             bg-gradient-to-r from-[#ffffff] to-[#A42121] bg-clip-border p-[1px]'>
+             <div className='bg-black text-white px-[21px] py-[15px] rounded-[12px]'>
+               Live Demo
+             </div>
+           </button></a>
+              </div>
+                <div>
               <a href="https://blackbuild.netlify.app/"><div><img className='object-contain' loading='lazy' src={bbup} alt="smart-resident-image"></img></div></a>
                 <h2 className='pt-[45px] text-3xl pb-1'>Black Build  Up</h2>
                 <p className='opacity-75 w-[310px] h-[80px]'>An organisation Empowering Black Entrepreneurs. Building Resilient Communities in BC and Beyond.
@@ -89,6 +103,7 @@ text-transparent scroll-mt-[-120px]' id='skill'>Skills & Tools</h1>
              </div>
            </button></a>
               </div>
+              {/*}
               <div>
 
               <a href="https://dan-victor.github.io/urban-hive/#"><div><img className='object-contain' loading='lazy' src={uh} alt="urban-hive-image"></img></div></a>
@@ -101,7 +116,7 @@ text-transparent scroll-mt-[-120px]' id='skill'>Skills & Tools</h1>
                Live Demo
              </div>
            </button></a>
-              </div>
+              </div>*/}
 
               {/*<div>
               <a href="https://precious-macaron-9a60f3.netlify.app/"><div><img className='object-contain' loading='lazy' src={ac} alt="ann-image"></img></div></a>
